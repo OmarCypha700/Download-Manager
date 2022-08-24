@@ -5,13 +5,28 @@
 }
 
 body{
-    margin: rem;
+    margin: 1rem;
+}
+
+.hero__text{
+    font-size: large;
+    color: #0a5165;
+    text-align: center;
+    margin: 2rem 0;
 }
 
 .cont{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 1rem;
+}
+.reports{
+    display: block;
+}
+
+.cont__off{
+    display: none;
 }
 
 .cont .list{

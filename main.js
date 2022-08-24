@@ -1,3 +1,17 @@
+//function for displaying reports on click.
+
+function getReports() {
+    let x = document.getElementById("reports");
+    if (x.className.indexOf("reports") == -1) {
+      x.className += "reports";
+    } else { 
+      x.className = x.className.replace("reports", "");
+    }
+  }
+
+
+// Function for pagination
+
 function getPageList(totalPages, page, maxLength){
     function range(start, end){
         return Array.from(Array(end - start + 1), (_, i) => i + start);
